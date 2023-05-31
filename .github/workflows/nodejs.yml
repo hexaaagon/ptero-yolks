@@ -16,12 +16,10 @@ jobs:
       fail-fast: false
       matrix:
         tag:
-          - 12
-          - 14
-          - 16
-          - 17
-          - 18
-          - 19
+          - puppeteer-12
+          - puppeteer-16
+          - puppeteer-18
+          - puppeteer-19
     steps:
       - uses: actions/checkout@v3
       # Setup QEMU for ARM64 Build
