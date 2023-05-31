@@ -20,6 +20,7 @@ jobs:
           - puppeteer-16
           - puppeteer-18
           - puppeteer-19
+          - salmolena
     steps:
       - uses: actions/checkout@v3
       # Setup QEMU for ARM64 Build
